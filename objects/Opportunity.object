@@ -143,7 +143,6 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
-    <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>AccountId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
@@ -216,6 +215,17 @@
         <fullName>Description</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Discount_Rate__c</fullName>
+        <externalId>false</externalId>
+        <label>Discount Rate</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
     </fields>
     <fields>
         <fullName>ExpectedRevenue</fullName>
@@ -330,6 +340,12 @@
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>Discount_Rate</fullName>
+        <active>true</active>
+        <errorConditionFormula>OR(Discount_Rate__c &lt; 0, Discount_Rate__c &gt; 0.41)</errorConditionFormula>
+        <errorMessage>Can not exceed 40%</errorMessage>
+    </validationRules>
     <webLinks>
         <fullName>DeliveryStatus</fullName>
         <availability>online</availability>
