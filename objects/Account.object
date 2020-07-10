@@ -228,15 +228,6 @@
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
     <fields>
-        <fullName>Last_Won_Opportunity_Date__c</fullName>
-        <externalId>false</externalId>
-        <label>Last Won Opportunity Date</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>Date</type>
-    </fields>
-    <fields>
         <fullName>AccountNumber</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -347,6 +338,14 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>Last_Won_Opportunity_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Last Won Opportunity Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
         <fullName>NaicsCode</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -418,6 +417,7 @@
     </fields>
     <fields>
         <fullName>SLA__c</fullName>
+        <description>Populate based on potential of customer.</description>
         <externalId>false</externalId>
         <label>SLA</label>
         <required>false</required>
