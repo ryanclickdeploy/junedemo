@@ -114,10 +114,12 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
-    <externalSharingModel>ReadWrite</externalSharingModel>
     <fields>
         <fullName>AccountId</fullName>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AuditEmail</fullName>
     </fields>
     <fields>
         <fullName>AutoCardType</fullName>
@@ -163,10 +165,28 @@
         <fullName>ExpiryYear</fullName>
     </fields>
     <fields>
+        <fullName>GatewayDate</fullName>
+    </fields>
+    <fields>
+        <fullName>GatewayResultCode</fullName>
+    </fields>
+    <fields>
+        <fullName>GatewayResultCodeDescription</fullName>
+    </fields>
+    <fields>
         <fullName>GatewayToken</fullName>
     </fields>
     <fields>
+        <fullName>GatewayTokenDetails</fullName>
+    </fields>
+    <fields>
         <fullName>InputCardNumber</fullName>
+    </fields>
+    <fields>
+        <fullName>IpAddress</fullName>
+    </fields>
+    <fields>
+        <fullName>MacAddress</fullName>
     </fields>
     <fields>
         <fullName>NickName</fullName>
@@ -174,6 +194,15 @@
     <fields>
         <fullName>PaymentGatewayId</fullName>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Phone</fullName>
+    </fields>
+    <fields>
+        <fullName>ProcessingMode</fullName>
+    </fields>
+    <fields>
+        <fullName>SfResultCode</fullName>
     </fields>
     <fields>
         <fullName>StartMonth</fullName>

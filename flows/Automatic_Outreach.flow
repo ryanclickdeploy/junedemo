@@ -49,6 +49,7 @@
             <label>Closed/Won</label>
         </rules>
     </decisions>
+    <description>Notify AM of sold case</description>
     <interviewLabel>Automatic_Outreach-1_InterviewLabel</interviewLabel>
     <label>Automatic Outreach</label>
     <processMetadataValues>

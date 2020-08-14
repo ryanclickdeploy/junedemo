@@ -325,7 +325,6 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
-    <externalSharingModel>ControlledByParent</externalSharingModel>
     <fields>
         <fullName>AccountId</fullName>
         <trackFeedHistory>true</trackFeedHistory>
@@ -345,6 +344,8 @@
     </fields>
     <fields>
         <fullName>CleanStatus</fullName>
+        <complianceGroup>PII;HIPAA;PCI</complianceGroup>
+        <inlineHelpText>Protected Data Types</inlineHelpText>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
