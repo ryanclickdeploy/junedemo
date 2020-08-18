@@ -155,6 +155,15 @@
     <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
+    <label>Stock</label>
+    <nameField>
+        <label>Stock Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Stocks</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
     <fields>
         <fullName>Growth__c</fullName>
         <externalId>false</externalId>
@@ -189,13 +198,4 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
-    <label>Stock</label>
-    <nameField>
-        <label>Stock Name</label>
-        <type>Text</type>
-    </nameField>
-    <pluralLabel>Stocks</pluralLabel>
-    <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
-    <visibility>Public</visibility>
 </CustomObject>
