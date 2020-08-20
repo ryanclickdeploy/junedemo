@@ -156,6 +156,25 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
+    <searchLayouts>
+        <customTabListAdditionalFields>Message</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Category</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Channel</customTabListAdditionalFields>
+        <customTabListAdditionalFields>IsInsertable</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Message</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Category</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Channel</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>IsInsertable</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Message</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Category</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Channel</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>IsInsertable</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>Message</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Category</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Channel</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>IsInsertable</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
     <fields>
         <fullName>Category</fullName>
         <trackHistory>false</trackHistory>
@@ -179,19 +198,4 @@
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
-    <searchLayouts>
-        <customTabListAdditionalFields>Message</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Category</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Channel</customTabListAdditionalFields>
-        <lookupDialogsAdditionalFields>Message</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>Category</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>Channel</lookupDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>Message</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>Category</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>Channel</lookupPhoneDialogsAdditionalFields>
-        <searchResultsAdditionalFields>Message</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Category</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Channel</searchResultsAdditionalFields>
-    </searchLayouts>
-    <sharingModel>Private</sharingModel>
 </CustomObject>
