@@ -114,12 +114,8 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
-    <externalSharingModel>ReadWrite</externalSharingModel>
     <fields>
         <fullName>Comments</fullName>
-    </fields>
-    <fields>
-        <fullName>ExternalReference</fullName>
     </fields>
     <fields>
         <fullName>MerchantCredentialId</fullName>

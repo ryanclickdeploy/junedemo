@@ -155,25 +155,6 @@
     <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <label>Stock</label>
-    <nameField>
-        <label>Stock Name</label>
-        <type>Text</type>
-    </nameField>
-    <pluralLabel>Stocks</pluralLabel>
-    <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
-    <visibility>Public</visibility>
-    <fields>
-        <fullName>Blue_Chip__c</fullName>
-        <externalId>false</externalId>
-        <label>Blue Chip</label>
-        <length>30</length>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
     <fields>
         <fullName>Growth__c</fullName>
         <externalId>false</externalId>
@@ -208,10 +189,13 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
-    <validationRules>
-        <fullName>Blue_Chip_Completed</fullName>
-        <active>true</active>
-        <errorConditionFormula>LEN( Blue_Chip__c ) = 0</errorConditionFormula>
-        <errorMessage>Must complete Blue Chip field</errorMessage>
-    </validationRules>
+    <label>Stock</label>
+    <nameField>
+        <label>Stock Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Stocks</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
 </CustomObject>

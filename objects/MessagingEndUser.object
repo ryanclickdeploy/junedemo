@@ -171,6 +171,8 @@
         <lookupPhoneDialogsAdditionalFields>MessageType</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>Locale</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>IsOptedOut</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE3</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE5</lookupPhoneDialogsAdditionalFields>
         <searchResultsAdditionalFields>MessagingPlatformKey</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>MessagingChannel</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>MessageType</searchResultsAdditionalFields>
