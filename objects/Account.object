@@ -343,6 +343,7 @@
         <label>Last Won Opportunity Date</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
         <type>Date</type>
     </fields>
     <fields>
