@@ -154,7 +154,7 @@
     <enableStreamingApi>true</enableStreamingApi>
     <label>Bicycle</label>
     <nameField>
-        <label>Bicycles Name</label>
+        <label>Bicycle Name</label>
         <type>Text</type>
     </nameField>
     <pluralLabel>Bicycles</pluralLabel>
