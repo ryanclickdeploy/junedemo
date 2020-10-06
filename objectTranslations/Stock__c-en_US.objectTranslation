@@ -9,6 +9,10 @@
         <value>Stocks</value>
     </caseValues>
     <fields>
+        <label><!-- Blue Chip --></label>
+        <name>Blue_Chip__c</name>
+    </fields>
+    <fields>
         <label><!-- Growth --></label>
         <name>Growth__c</name>
         <picklistValues>
@@ -29,4 +33,8 @@
         </picklistValues>
     </fields>
     <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Must complete Blue Chip field --></errorMessage>
+        <name>Blue_Chip_Completed</name>
+    </validationRules>
 </CustomObjectTranslation>

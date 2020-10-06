@@ -207,11 +207,11 @@
     <pluralLabel>Stocks</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
-    <visibility>Public</visibility>
     <validationRules>
         <fullName>Blue_Chip_Completed</fullName>
         <active>true</active>
         <errorConditionFormula>LEN( Blue_Chip__c ) = 0</errorConditionFormula>
         <errorMessage>Must complete Blue Chip field</errorMessage>
     </validationRules>
+    <visibility>Public</visibility>
 </CustomObject>

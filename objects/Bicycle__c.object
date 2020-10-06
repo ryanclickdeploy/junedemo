@@ -152,15 +152,6 @@
     <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <label>Bicycle</label>
-    <nameField>
-        <label>Bicycle Name</label>
-        <type>Text</type>
-    </nameField>
-    <pluralLabel>Bicycles</pluralLabel>
-    <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
-    <visibility>Public</visibility>
     <fields>
         <fullName>Type__c</fullName>
         <externalId>false</externalId>
@@ -195,4 +186,13 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
+    <label>Bicycle</label>
+    <nameField>
+        <label>Bicycle Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Bicycles</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
 </CustomObject>
