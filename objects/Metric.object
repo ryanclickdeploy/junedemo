@@ -6,4 +6,16 @@
         <description>Measure achievement based on whether or not the metric is finished. Ideal for tracking milestones, or when you don&apos;t have metrics based on hard numbers. For example: Become Salesforce Certified.</description>
         <label>Completion</label>
     </recordTypes>
+    <fields>
+        <fullName>OrigMetricId__c</fullName>
+        <caseSensitive>true</caseSensitive>
+        <externalId>false</externalId>
+        <label>OrigMetricId</label>
+        <length>18</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
 </CustomObject>
