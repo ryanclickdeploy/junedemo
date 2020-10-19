@@ -118,10 +118,6 @@
         <fullName>IsFullyOptedIn</fullName>
     </fields>
     <fields>
-        <fullName>IsOptedOut</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
         <fullName>Locale</fullName>
         <trackHistory>false</trackHistory>
     </fields>
@@ -160,24 +156,24 @@
         <customTabListAdditionalFields>MessagingChannel</customTabListAdditionalFields>
         <customTabListAdditionalFields>MessageType</customTabListAdditionalFields>
         <customTabListAdditionalFields>Locale</customTabListAdditionalFields>
-        <customTabListAdditionalFields>IsOptedOut</customTabListAdditionalFields>
+        <customTabListAdditionalFields>MessagingConsentStatus</customTabListAdditionalFields>
         <lookupDialogsAdditionalFields>MessagingPlatformKey</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>MessagingChannel</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>MessageType</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>Locale</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>IsOptedOut</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>MessagingConsentStatus</lookupDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>MessagingPlatformKey</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>MessagingChannel</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>MessageType</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>Locale</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>IsOptedOut</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>MessagingConsentStatus</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE3</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE5</lookupPhoneDialogsAdditionalFields>
         <searchResultsAdditionalFields>MessagingPlatformKey</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>MessagingChannel</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>MessageType</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Locale</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>IsOptedOut</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>MessagingConsentStatus</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
 </CustomObject>
