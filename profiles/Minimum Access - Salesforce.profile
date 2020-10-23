@@ -2038,6 +2038,9 @@
         <layout>DigitalWallet-Digital Wallet Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>FeedItem-Feed Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Payment-Payment Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
