@@ -144,6 +144,17 @@
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
     <fields>
+        <fullName>Discount_Rate__c</fullName>
+        <externalId>false</externalId>
+        <label>Discount Rate</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
         <fullName>AccountId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
@@ -348,4 +359,10 @@
         <showsStatus>true</showsStatus>
         <url>http://www.fedex.com/cgi-bin/tracking?tracknumbers={!Opportunity_Tracking_Number}&amp;action=track&amp;language=english&amp;cntry_code=us</url>
     </webLinks>
+    <validationRules>
+        <fullName>Discount_Rate</fullName>
+        <active>true</active>
+        <errorConditionFormula>OR(Discount_Rate__c &lt; 0, Discount_Rate__c &gt; 0.40)</errorConditionFormula>
+        <errorMessage>Can not exceed 40%</errorMessage>
+    </validationRules>
 </CustomObject>
