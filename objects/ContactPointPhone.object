@@ -128,6 +128,7 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
     <fields>
         <fullName>ActiveFromDate</fullName>
         <trackHistory>false</trackHistory>
@@ -194,8 +195,17 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>PreferenceRank</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>TelephoneNumber</fullName>
         <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>UsageType</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
     </fields>
     <searchLayouts>
         <customTabListAdditionalFields>TelephoneNumber</customTabListAdditionalFields>

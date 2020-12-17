@@ -143,17 +143,7 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
-    <fields>
-        <fullName>Discount_Rate__c</fullName>
-        <externalId>false</externalId>
-        <label>Discount Rate</label>
-        <precision>16</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackTrending>false</trackTrending>
-        <type>Percent</type>
-    </fields>
+    <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>AccountId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
@@ -183,46 +173,6 @@
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>CurrentGenerators__c</fullName>
-        <externalId>false</externalId>
-        <label>Current Generator(s)</label>
-        <length>100</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>DeliveryInstallationStatus__c</fullName>
-        <externalId>false</externalId>
-        <label>Delivery/Installation Status</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>In progress</fullName>
-                    <default>false</default>
-                    <label>In progress</label>
-                </value>
-                <value>
-                    <fullName>Yet to begin</fullName>
-                    <default>false</default>
-                    <label>Yet to begin</label>
-                </value>
-                <value>
-                    <fullName>Completed</fullName>
-                    <default>false</default>
-                    <label>Completed</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
         <fullName>Description</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
@@ -247,17 +197,6 @@
         <type>Picklist</type>
     </fields>
     <fields>
-        <fullName>MainCompetitors__c</fullName>
-        <externalId>false</externalId>
-        <label>Main Competitor(s)</label>
-        <length>100</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
         <fullName>Name</fullName>
         <trackFeedHistory>true</trackFeedHistory>
         <trackTrending>false</trackTrending>
@@ -266,17 +205,6 @@
         <fullName>NextStep</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
-    </fields>
-    <fields>
-        <fullName>OrderNumber__c</fullName>
-        <externalId>false</externalId>
-        <label>Order Number</label>
-        <length>8</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
     </fields>
     <fields>
         <fullName>OwnerId</fullName>
@@ -306,17 +234,6 @@
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
-        <fullName>TrackingNumber__c</fullName>
-        <externalId>false</externalId>
-        <label>Tracking Number</label>
-        <length>12</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
         <fullName>Type</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
@@ -339,30 +256,5 @@
         <searchResultsAdditionalFields>OPPORTUNITY.CLOSE_DATE</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
-    <sharingModel>ReadWrite</sharingModel>
-    <webLinks>
-        <fullName>DeliveryStatus</fullName>
-        <availability>online</availability>
-        <displayType>link</displayType>
-        <encodingKey>UTF-8</encodingKey>
-        <hasMenubar>true</hasMenubar>
-        <hasScrollbars>true</hasScrollbars>
-        <hasToolbar>true</hasToolbar>
-        <height>600</height>
-        <isResizable>true</isResizable>
-        <linkType>url</linkType>
-        <masterLabel>Delivery Status</masterLabel>
-        <openType>newWindow</openType>
-        <position>none</position>
-        <protected>false</protected>
-        <showsLocation>true</showsLocation>
-        <showsStatus>true</showsStatus>
-        <url>http://www.fedex.com/cgi-bin/tracking?tracknumbers={!Opportunity_Tracking_Number}&amp;action=track&amp;language=english&amp;cntry_code=us</url>
-    </webLinks>
-    <validationRules>
-        <fullName>Discount_Rate</fullName>
-        <active>true</active>
-        <errorConditionFormula>OR(Discount_Rate__c &lt; 0, Discount_Rate__c &gt; 0.40)</errorConditionFormula>
-        <errorMessage>Can not exceed 40%</errorMessage>
-    </validationRules>
+    <sharingModel>Read</sharingModel>
 </CustomObject>
