@@ -145,6 +145,17 @@
     <enableHistory>false</enableHistory>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>Discount_Rate__c</fullName>
+        <externalId>false</externalId>
+        <label>Discount Rate</label>
+        <precision>6</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
         <fullName>AccountId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
@@ -257,4 +268,13 @@
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>Read</sharingModel>
+    <validationRules>
+        <fullName>Discount_Rate_Rule</fullName>
+        <active>true</active>
+        <errorConditionFormula>OR(
+   Discount_Rate__c &gt; 1.0,
+   Discount_Rate__c &lt; 0.0
+)</errorConditionFormula>
+        <errorMessage>Must enter percentage between  0 and 100</errorMessage>
+    </validationRules>
 </CustomObject>
