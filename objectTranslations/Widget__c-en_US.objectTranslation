@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Widget</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Widgets</value>
+    </caseValues>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Clean</masterLabel>
+            <translation><!-- Clean --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tacky</masterLabel>
+            <translation><!-- Tacky --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wacky</masterLabel>
+            <translation><!-- Wacky --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
